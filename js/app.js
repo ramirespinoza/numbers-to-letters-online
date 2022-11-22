@@ -62,7 +62,7 @@ function submitNumber(tableId) {
         // Creamos una columna para las letras correspondientes al dígito actual
         // y se adiciona un input antes para vocales
         tableBody += 
-            '<td><input></td>' +
+            '<td><input class="form-control vowels"></td>' +
             '<td>' + 
                 lettersHtml +
             '</td>'
@@ -73,7 +73,7 @@ function submitNumber(tableId) {
 
     //  Se agrega una columna extra para la última o últimas vocales
     tableHead += '<td></td>';
-    tableBody += '<td><input></td>';
+    tableBody += '<td><input class="form-control vowels"></td>';
 
     // Se arma la tabla con el head y el body armado previamente
     table = 

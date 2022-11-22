@@ -1,0 +1,9 @@
+.table-form {
+    width: fit-content;
+}
+td {
+    width: min-content;
+}
+.form-control.vowels {
+    width: 80px;
+}
