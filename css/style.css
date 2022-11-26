@@ -1,9 +1,12 @@
 .table-form {
     width: fit-content;
 }
-td {
-    width: min-content;
-}
 .form-control.vowels {
-    width: 50px;
+    width: 55px;
+    text-align: center;
+}
+
+.container {
+    min-width: fit-content;
+
 }
